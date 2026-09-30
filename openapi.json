@@ -33,7 +33,8 @@
         "type": "object",
         "required": [
           "id",
-          "name"
+          "name",
+          "Password"
         ],
         "properties": {
           "id": {
@@ -41,7 +42,9 @@
           },
           "name": {
             "type": "string"
-          }
+            
+          },
+          "Password":{"type" : "int"}
         }
       }
     }
