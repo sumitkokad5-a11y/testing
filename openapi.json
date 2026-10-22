@@ -33,13 +33,13 @@
         "type": "object",
         "required": [
           "id",
-          "full_name"
+          "full_name_new"
         ],
         "properties": {
           "id": {
             "type": "integer"
           },
-          "full_name": {
+          "full_name_new": {
             "type": "string"
           }
         }
