@@ -33,18 +33,20 @@
         "type": "object",
         "required": [
           "id",
-          "name",
-          
+          "full_name_new",
+          "email"
         ],
         "properties": {
           "id": {
             "type": "integer"
           },
-          "name": {
+          "full_name_new": {
             "type": "string"
-            
+          },
+           "email": {
+            "type": "string"
           }
-         
+          
         }
       }
     }
