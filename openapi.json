@@ -34,7 +34,7 @@
         "required": [
           "id",
           "full_name_new",
-          "email"
+          
         ],
         "properties": {
           "id": {
@@ -43,9 +43,7 @@
           "full_name_new": {
             "type": "string"
           },
-           "email": {
-            "type": "string"
-          }
+         
           
         }
       }
