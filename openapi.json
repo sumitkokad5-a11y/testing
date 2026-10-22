@@ -32,15 +32,15 @@
       "User": {
         "type": "object",
         "required": [
-          "id",
-          "full_name_new",
+          "id1",
+          "full",
           
         ],
         "properties": {
-          "id": {
+          "id1": {
             "type": "integer"
           },
-          "full_name_new": {
+          "full": {
             "type": "string"
           },
          
